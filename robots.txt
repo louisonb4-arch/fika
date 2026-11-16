@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://fika-site.vercel.app/sitemap.xml
+Sitemap: https://fika-site-five.vercel.app/sitemap.xml

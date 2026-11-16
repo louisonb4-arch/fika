@@ -67,7 +67,7 @@ def cards(data, season):
 JSONLD = {
  "@context": "https://schema.org", "@type": ["Bakery", "CafeOrCoffeeShop"], "name": "Fika",
  "description": "Pâtisserie, salon de thé et déjeuner à Nantes, place Viarme.", "slogan": "Le meilleur pour la faim",
- "url": "https://fika-site.vercel.app/", "telephone": "+33228446475", "image": "https://fika-site.vercel.app/img/og.jpg",
+ "url": "https://fika-site-five.vercel.app/", "telephone": "+33228446475", "image": "https://fika-site-five.vercel.app/img/og.jpg",
  "address": {"@type": "PostalAddress", "streetAddress": "28 place Viarme", "postalCode": "44000", "addressLocality": "Nantes", "addressCountry": "FR"},
  "geo": {"@type": "GeoCoordinates", "latitude": 47.2205193, "longitude": -1.563011},
  "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday", "Thursday", "Friday", "Saturday"], "opens": "08:30", "closes": "18:30"}],

@@ -3,7 +3,7 @@
 import os, re
 from PIL import Image, ImageDraw
 S = os.path.dirname(os.path.abspath(__file__)); R = os.path.dirname(S)
-URL = 'https://fika-site.vercel.app'
+URL = 'https://fika-site-five.vercel.app'
 W = lambda p, t: open(os.path.join(R, p), 'w', encoding='utf-8').write(t)
 
 def page(title, body, css):
