@@ -1,0 +1,116 @@
+{
+ "printemps": [
+  {
+   "n": "Chou · fraise & rhubarbe",
+   "img": "chou-fraise-rhubarbe",
+   "d": "Un chou garni d’une compotée fraise-rhubarbe, d’un croustillant muesli et d’une crème à la vanille de Madagascar bio."
+  },
+  {
+   "n": "Tarte · rhubarbe",
+   "img": "tarte-rhubarbe",
+   "d": "Pâte sucrée, crème d’amandes et compotée de rhubarbe, décorée d’une crème légère à l’hibiscus et de rhubarbe pochée."
+  },
+  {
+   "n": "Flan · vanille & rhubarbe",
+   "img": "flan-rhubarbe",
+   "d": "Le flan à la vanille de Madagascar bio de la maison, version printemps, avec de la rhubarbe."
+  },
+  {
+   "n": "Fraisier",
+   "img": "fraisier",
+   "d": "Biscuit moelleux, crème légère et fraises fraîches : le classique de la saison."
+  },
+  {
+   "n": "Pavlova · fruits rouges",
+   "img": "pavlova-fruits-rouges",
+   "d": "Une coque de meringue suisse garnie d’une compotée cerise, mûre, myrtille et cassis, et d’une crème légère à la vanille bio.",
+   "tag": "sans gluten"
+  }
+ ],
+ "ete": [
+  {
+   "n": "Tarte · fraise & basilic",
+   "img": "tarte-fraise-basilic",
+   "d": "Pâte sucrée, croustillant au chocolat Valrhona, compotée fraise & basilic, crème diplomate et fraises fraîches (et françaises !)."
+  },
+  {
+   "n": "Douceur de pêche",
+   "img": "douceur-peche",
+   "d": "Mousse à la pêche blanche, compotée de pêches, biscuit moelleux à l’amande et crème légère à la baie de timut.",
+   "tag": "sans gluten"
+  },
+  {
+   "n": "Chou · pêche verveine",
+   "img": "chou-peche",
+   "d": "Un chou garni d’une compotée de pêches et d’un croustillant muesli noisette & chocolat blanc, sous une crème légère à la verveine."
+  },
+  {
+   "n": "Tarte · abricot",
+   "img": "tarte-abricot",
+   "d": "Crème d’amande, compotée d’abricot, crème légère à la fève de tonka, crumble noisette et abricots frais."
+  },
+  {
+   "n": "Cerise noire",
+   "img": "cerise-noire",
+   "d": "La forêt noire revisitée : biscuit moelleux au cacao, compotée de cerise, crème vanille et namelaka Millot bio 74 %."
+  }
+ ],
+ "automne": [
+  {
+   "n": "Tarte · prunes & tonka",
+   "img": "tarte-prunes",
+   "d": "Pâte sucrée, croustillant au chocolat Valrhona, compotée de mirabelles, crème diplomate à la fève de tonka et reines-claudes fraîches."
+  },
+  {
+   "n": "Chou · poire chocolat",
+   "img": "chou-poire",
+   "d": "Compotée de poire, croustillant muesli, namelaka au chocolat noir, crème légère vanille et bille de poire pochée."
+  },
+  {
+   "n": "Tarte · poire & vanille",
+   "img": "tarte-poire",
+   "d": "Crème d’amande, compotée de poires, crème légère à la vanille bio et amandes caramélisées."
+  },
+  {
+   "n": "Tarte · myrtille & marron",
+   "img": "tarte-myrtille-marron",
+   "d": "Crème d’amandes et compotée de myrtilles, ganache montée vanille et crème de marron."
+  },
+  {
+   "n": "Flan · pommes & caramel",
+   "img": "flan-pommes",
+   "d": "Flan à la vanille de Madagascar bio, compotée de pommes et caramel au beurre salé."
+  }
+ ],
+ "hiver": [
+  {
+   "n": "Choconoisette",
+   "img": "choconoisette",
+   "d": "Mousse Valrhona Hukambi 53 %, cœur crémeux et praliné noisette, ganache montée noisette, sur un brownie.",
+   "tag": "sans gluten"
+  },
+  {
+   "n": "Chocolat · sichuan",
+   "img": "chocolat-sichuan",
+   "d": "Mousse au chocolat Millot bio 74 %, crémeux à la baie de sichuan, biscuit chocolat et croustillant riz soufflé.",
+   "tag": "sans gluten"
+  },
+  {
+   "n": "Zeste breton",
+   "img": "zeste-breton",
+   "d": "Ganache montée, crémeux et confit au kalamansi, sur un sablé breton. Acidulé à souhait.",
+   "tag": "sans gluten"
+  },
+  {
+   "n": "Tarte · chocolat & mandarine",
+   "img": "tarte-chocolat-mandarine",
+   "d": "Croustillant au chocolat Valrhona, ganache chocolat noir, crémeux mandarine & poivre de timut."
+  },
+  {
+   "n": "Pavlova · ananas",
+   "img": "pavlova-ananas",
+   "d": "Meringue suisse croustillante, compotée et crémeux ananas, crème légère citron vert, sur un sablé.",
+   "tag": "sans gluten"
+  }
+ ]
+}

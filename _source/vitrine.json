@@ -1,0 +1,16 @@
+[
+ {"img": "chou-poire", "s": "Automne", "n": "Chou · poire chocolat", "d": "Compotée de poire, croustillant muesli, namelaka au chocolat noir, crème légère vanille et bille de poire pochée."},
+ {"img": "tarte-poire", "s": "Automne", "n": "Tarte · poire & vanille", "d": "Crème d’amande, compotée de poires, crème légère à la vanille bio et amandes caramélisées."},
+ {"img": "tarte-myrtille-marron", "s": "Automne", "n": "Tarte · myrtille & marron", "d": "Crème d’amandes, compotée de myrtilles, ganache montée vanille et crème de marron."},
+ {"img": "flan-pommes", "s": "Automne", "n": "Flan · pommes & caramel", "d": "Flan à la vanille de Madagascar bio, compotée de pommes, caramel au beurre salé."},
+ {"img": "tarte-prunes", "s": "Automne", "n": "Tarte · prunes & tonka", "d": "Croustillant Valrhona, compotée de mirabelles, crème diplomate à la tonka, reines-claudes fraîches."},
+ {"img": "choconoisette", "s": "Hiver", "n": "Choconoisette", "d": "Mousse Valrhona Hukambi 53 %, cœur crémeux et praliné noisette, ganache montée noisette, brownie.", "t": "Sans gluten"},
+ {"img": "zeste-breton", "s": "Hiver", "n": "Zeste breton", "d": "Ganache montée, crémeux et confit au kalamansi, sur un sablé breton. Acidulé à souhait.", "t": "Sans gluten"},
+ {"img": "baba-ananas", "s": "Hiver", "n": "Baba · ananas", "d": "Un baba au rhum, une compotée d’ananas et une crème à la baie de passion."},
+ {"img": "chou-fraise-rhubarbe", "s": "Printemps", "n": "Chou · fraise & rhubarbe", "d": "Compotée fraise-rhubarbe, croustillant muesli et crème à la vanille de Madagascar bio."},
+ {"img": "cerise-noire", "s": "Été", "n": "Cerise noire", "d": "La forêt noire revisitée : biscuit cacao, compotée de cerise, crème vanille, namelaka Millot bio 74 %."},
+ {"img": "tarte-fraise-basilic", "s": "Été", "n": "Tarte · fraise & basilic", "d": "Croustillant Valrhona, compotée fraise & basilic, crème diplomate, fraises fraîches et françaises."},
+ {"img": "douceur-peche", "s": "Été", "n": "Douceur de pêche", "d": "Mousse pêche blanche, compotée de pêches, biscuit amande, crème légère à la baie de timut.", "t": "Sans gluten"},
+ {"img": "flan-cerise", "s": "Été", "n": "Flan · vanille & cerise", "d": "Flan à la vanille de Madagascar bio, compotée de cerise, coulis de cerise, sur pâte sucrée."},
+ {"img": "flan-abricot", "s": "Été", "n": "Flan · vanille & abricot", "d": "Flan à la vanille de Madagascar bio garni d’une compotée d’abricot, sur pâte sucrée."}
+]

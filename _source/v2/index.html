@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fika — Pâtisserie, salon de thé & déjeuner · Place Viarme, Nantes</title>
+<meta name="description" content="Fika, pâtisserie, salon de thé et déjeuner au 28 place Viarme à Nantes. Pâtisseries de saison faites maison, formule déjeuner, sans réservation. Du mercredi au samedi, 8h30–18h30.">
+<link rel="canonical" href="https://fika-site.vercel.app/">
+<meta name="theme-color" content="#06363A">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Fika — Le meilleur pour la faim · Nantes">
+<meta property="og:description" content="Pâtisserie, salon de thé & déjeuner, 28 place Viarme à Nantes.">
+<meta property="og:url" content="https://fika-site.vercel.app/">
+<meta property="og:image" content="https://fika-site.vercel.app/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="fonts/InstrumentSerif-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/Jost-normal.woff2" as="font" type="font/woff2" crossorigin>
+<!--CSS-->
+<script>try{if(!sessionStorage.getItem('fika-intro')&&!matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.classList.add('has-intro')}catch(e){}</script>
+<!--JSONLD-->
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <path id="scr" d="__SCRIPT__"/>
+    <symbol id="script" viewBox="80 395 1005 595"><use href="#scr" fill="currentColor"/></symbol>
+    <symbol id="icon" viewBox="440 38 226 392">
+      <rect x="446" y="115" width="120" height="217" fill="#F3E7D6"/>
+      <path d="M497 120A54 54 0 0 0 577 47Z" fill="#EC7A66"/>
+      <circle cx="580" cy="141" r="15" fill="none" stroke="#C49A45" stroke-width="7"/>
+      <path d="M508 422V235a75 75 0 0 1 150 0v187Z" fill="none" stroke="#C49A45" stroke-width="7"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ============ OUVERTURE ============ -->
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="intro__plate">
+    <svg viewBox="0 0 400 400"><!--PLATE--></svg>
+    <svg class="intro__script" viewBox="80 395 1005 595">
+      <mask id="mk-intro" maskUnits="userSpaceOnUse" x="0" y="300" width="1200" height="800"><use href="#pen" class="pen" pathLength="1" fill="none" stroke="#fff" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/></mask>
+      <use href="#scr" fill="currentColor" mask="url(#mk-intro)"/>
+    </svg>
+    <div class="intro__tag" data-letters>LE MEILLEUR POUR LA FAIM</div>
+  </div>
+  <button class="intro__skip" id="skip" type="button">Passer</button>
+</div>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="nav" id="nav">
+  <div class="wrap nav__in">
+    <a href="#top" class="brand" aria-label="Fika, retour en haut">
+      <svg class="ic" viewBox="0 0 226 392" aria-hidden="true"><use href="#icon"/></svg>
+      <svg class="sc" viewBox="80 395 1005 595" aria-hidden="true"><use href="#scr" fill="currentColor"/></svg>
+    </a>
+    <nav class="nav__links" aria-label="Navigation principale">
+      <a href="#journee">La journée</a>
+      <a href="#vitrine">Pâtisseries</a>
+      <a href="#dejeuner">Déjeuner</a>
+      <a href="#salon">Le salon</a>
+      <a href="#commandes">Commandes</a>
+    </nav>
+    <span class="status js-status"><i></i><span>Horaires</span></span>
+    <a class="btn btn--d" href="#infos">Venir <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+    <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mmenu"><span></span><span></span></button>
+  </div>
+</header>
+<div class="mmenu" id="mmenu">
+  <nav aria-label="Menu mobile">
+    <a href="#journee" style="--i:0">La journée</a>
+    <a href="#vitrine" style="--i:1">Pâtisseries</a>
+    <a href="#dejeuner" style="--i:2">Déjeuner</a>
+    <a href="#salon" style="--i:3">Le salon</a>
+    <a href="#commandes" style="--i:4">Commandes</a>
+    <a href="#infos" style="--i:5">Venir</a>
+  </nav>
+  <p>28 place Viarme, Nantes · Mercredi → samedi, 8h30–18h30<br>02 28 44 64 75</p>
+</div>
+
+<main id="top">
+<!-- ============ HERO ============ -->
+<section class="hero" aria-labelledby="h1">
+  <div class="wrap hero__grid">
+    <div>
+      <p class="kick rise" style="--d:1">Pâtisserie · Salon de thé · Déjeuner</p>
+      <h1 id="h1" aria-label="Le meilleur pour la faim">
+        <span class="chars" data-chars aria-hidden="true">Le meilleur</span>
+        <span class="l2" aria-hidden="true"><span class="chars" data-chars data-delay="11">pour la </span><span class="pun"><span class="pun__fin chars" data-chars data-delay="20"><em>fin</em></span><svg class="pun__strike" viewBox="0 0 100 10" preserveAspectRatio="none"><path pathLength="1" d="M2 6 C 30 2, 60 9, 98 3"/></svg><span class="pun__faim" data-letters>faim !</span></span></span>
+      </h1>
+      <p class="hero__lead rise" style="--d:3">En Suède, la <em>fika</em>, c’est la pause qu’on s’accorde plusieurs fois par jour&nbsp;: un café, une pâtisserie et quelqu’un avec qui les partager. Chez nous, elle se prend au cœur du quartier Viarme, du petit-déjeuner au goûter.</p>
+      <div class="hero__cta rise" style="--d:4">
+        <a class="btn btn--d" href="#vitrine">La vitrine du moment <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+        <a class="btn btn--o" href="#dejeuner">Le déjeuner</a>
+      </div>
+      <div class="facts rise" style="--d:5">
+        <span><b>4,9</b><span class="st" aria-hidden="true">★★★★★</span> 198 avis Google</span>
+        <span><b>8h30</b>→ 18h30, du mercredi au samedi</span>
+        <span><b>0</b>réservation, on s’installe</span>
+      </div>
+    </div>
+    <div class="table" aria-hidden="true">
+      <div class="table__nappe"></div>
+      <div class="plate"><div class="plate__spin"><img data-p="abricot-top" data-sizes="(max-width:900px) 80vw, 40vw" alt="" fetchpriority="high"></div></div>
+      <p class="note note--a">tarte abricot,<br>crème tonka<svg viewBox="0 0 80 60"><path pathLength="1" d="M70 4 C 60 30, 40 46, 6 50 M6 50 l12 -9 M6 50 l13 6"/></svg></p>
+      <div class="hero__status js-status-disc"><span>Aujourd’hui</span><b>—</b><span class="js-status-sub">&nbsp;</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LA JOURNÉE (horloge) ============ -->
+<section class="clock" id="journee" aria-labelledby="clock-t">
+  <div class="clock__track" id="clockTrack">
+    <div class="clock__stick">
+      <div class="clock__head">
+        <h2 id="clock-t" class="chars" data-chars>Une fika, à toute heure.</h2>
+        <p class="rise">Faites défiler : l’aiguille avance, et la maison change de rythme du matin jusqu’au soir.</p>
+      </div>
+      <div class="wrap clock__grid">
+        <div class="dial" aria-hidden="true">
+          <svg viewBox="0 0 400 400"><!--DIAL--></svg>
+          <div class="dial__center" id="dialPics">
+            <img data-p="vitrine" data-sizes="30vw" alt="" class="on">
+            <img data-p="kanelbulle" data-sizes="30vw" alt="">
+            <img data-p="focaccia" data-sizes="30vw" alt="">
+            <img data-p="chou-peche" data-sizes="30vw" alt="">
+            <img data-p="salon-plantes" data-sizes="30vw" alt="">
+            <img data-p="facade" data-sizes="30vw" alt="">
+          </div>
+          <span class="dial__label" id="dialTime">8h30</span>
+        </div>
+        <div>
+          <div class="moments" id="moments">
+            <article class="moment on"><p class="moment__h">8h30</p><h3 class="chars" data-chars>La vitrine se remplit</h3><p class="fade">Les pâtisseries de l’atelier prennent place, le café coule. Au petit-déjeuner, une tartine sur focaccia toastée et son œuf poché, avec une recette qui change au fil des semaines.</p></article>
+            <article class="moment"><p class="moment__h">10h30</p><h3 class="chars" data-chars>Café &amp; kanelbulle</h3><p class="fade">La brioche suédoise roulée à la cannelle, à déguster à toute heure, avec un cappuccino ou un latte. La fika dans sa version la plus simple.</p></article>
+            <article class="moment"><p class="moment__h">12h00</p><h3 class="chars" data-chars>Le déjeuner</h3><p class="fade">Un plat salé fait maison, une pâtisserie, une boisson. Sans réservation, sur place ou à emporter.</p></article>
+            <article class="moment"><p class="moment__h">15h30</p><h3 class="chars" data-chars>Le goûter</h3><p class="fade">L’heure de la vitrine : choux, tartes, flans et entremets de saison, fins et peu sucrés.</p></article>
+            <article class="moment"><p class="moment__h">17h00</p><h3 class="chars" data-chars>Un chocolat chaud</h3><p class="fade">On ralentit dans le salon, entre les plantes et les boiseries vertes. Chocolat chaud, thé ou infusion pour finir la journée.</p></article>
+            <article class="moment"><p class="moment__h">18h30</p><h3 class="chars" data-chars>À demain !</h3><p class="fade">Le salon ferme ses portes. On se retrouve le lendemain dès 8h30, du mercredi au samedi.</p></article>
+          </div>
+          <div class="clock__dots" id="clockDots"><i class="on"></i><i></i><i></i><i></i><i></i><i></i></div>
+          <p class="clock__now"><i></i><span id="clockNow">Le point corail indique l’heure qu’il est à Nantes.</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VITRINE DES SAISONS ============ -->
+<section class="saisons" id="vitrine" aria-labelledby="vit-t">
+  <div class="wrap">
+    <div class="saisons__top">
+      <h2 id="vit-t" class="chars" data-chars>La vitrine suit les <em>saisons.</em></h2>
+      <p class="saisons__lead rise">Fruits du moment, vanille de Madagascar bio, chocolats Valrhona et Millot : la carte change sans cesse. Voici quelques créations passées par la vitrine, saison par saison.</p>
+      <div class="tabs rise" role="tablist" aria-label="Choisir une saison" id="tabs">
+        <span class="tabs__pill" id="pill"></span>
+        <button role="tab" type="button" data-s="printemps" aria-selected="false" aria-controls="cards"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="2.2"/><path d="M10 7.8C8 4 12 4 10 7.8ZM12.2 10C16 8 16 12 12.2 10ZM10 12.2C12 16 8 16 10 12.2ZM7.8 10C4 12 4 8 7.8 10Z"/></svg>Printemps</button>
+        <button role="tab" type="button" data-s="ete" aria-selected="false" aria-controls="cards"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="3.4"/><path d="M10 2v2.4M10 15.6V18M2 10h2.4M15.6 10H18M4.3 4.3l1.7 1.7M14 14l1.7 1.7M4.3 15.7 6 14M14 6l1.7-1.7"/></svg>Été</button>
+        <button role="tab" type="button" data-s="automne" aria-selected="true" aria-controls="cards"><svg viewBox="0 0 20 20"><path d="M4 16C4 8 9 4 16 4c0 7-4 12-12 12Z"/><path d="M4 16 11 9"/></svg>Automne</button>
+        <button role="tab" type="button" data-s="hiver" aria-selected="false" aria-controls="cards"><svg viewBox="0 0 20 20"><path d="M10 2v16M3 6l14 8M3 14 17 6M8 3.5 10 5l2-1.5M8 16.5 10 15l2 1.5"/></svg>Hiver</button>
+      </div>
+    </div>
+    <div class="cards" id="cards" role="tabpanel" aria-live="polite"><!--CARDS--></div>
+    <div class="saisons__foot">
+      <p class="love rise">toujours fait maison, et avec amour !<svg viewBox="0 0 38 34" aria-hidden="true"><path pathLength="1" d="M19 31C8 23 2 17 3 10c1-6 9-8 13-3l3 4 3-4c4-5 12-3 13 3 1 7-5 13-16 21Z"/></svg></p>
+      <p class="formats rise">Sur place ou à emporter, <b>en individuel ou en format 4, 6 ou 8 parts</b>. Pour les formats à partager, la commande est fortement conseillée. La vitrine du jour est sur <a href="https://www.instagram.com/fika.nantes/" target="_blank" rel="noopener" style="text-decoration:underline">Instagram</a>.</p>
+    </div>
+  </div>
+  <script type="application/json" id="vitData"><!--VITDATA--></script>
+</section>
+
+<!-- ============ DÉJEUNER / ARDOISES ============ -->
+<section class="dej" id="dejeuner" aria-labelledby="dej-t">
+  <div class="wrap">
+    <div class="dej__top">
+      <div>
+        <p class="kick rise">Le midi, du mercredi au samedi</p>
+        <h2 id="dej-t" class="chars" data-chars style="margin-top:20px">Sur l’ardoise, <em>ce midi.</em></h2>
+      </div>
+      <p class="rise">Salades, focaccias, veloutés : la carte salée change avec les produits du moment. On choisit au comptoir, on s’installe, et on termine évidemment par la vitrine.</p>
+    </div>
+    <div class="boards">
+      <article class="board rise" style="--tilt:-1.6deg;--d:0">
+        <div class="board__in">
+          <!--DOODLE_TL--><!--DOODLE_BR-->
+          <h3>Formule déjeuner</h3>
+          <p class="big">1 choix salé<br>+ 1 pâtisserie<br>+ 1 boisson</p>
+          <div class="price"><div>sur place<b>18,50 €</b></div><div>à emporter<b>16,50 €</b></div></div>
+          <p class="board__note">bière ou cidre : + 0,50 €</p>
+        </div>
+      </article>
+      <article class="board rise" style="--tilt:1.2deg;--d:1">
+        <div class="board__in">
+          <!--DOODLE_TL-->
+          <h3>Boissons chaudes</h3>
+          <ul>
+            <li><span>Expresso</span><span>2 €</span></li>
+            <li><span>Allongé</span><span>2 €</span></li>
+            <li><span>Double</span><span>3 €</span></li>
+            <li><span>Noisette</span><span>3 €</span></li>
+            <li><span>Cappuccino</span><span>3,50 €</span></li>
+            <li><span>Latte</span><span>4 €</span></li>
+            <li><span>Mocaccino</span><span>4,50 €</span></li>
+          </ul>
+          <p class="board__note">chocolats chauds · thés &amp; infusions</p>
+        </div>
+      </article>
+      <figure class="dej__ph rise" style="--d:2">
+        <img data-p="focaccia" data-sizes="(max-width:900px) 92vw, 30vw" alt="Tartine sur focaccia, saumon, asperges et pousses, servie avec une citronnade" loading="lazy">
+        <figcaption><b>La tartine focaccia</b>Pain toasté, œuf poché coulant et garniture qui change avec les semaines.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LE SALON ============ -->
+<section class="salon" id="salon" aria-labelledby="salon-t">
+  <div class="salon__big">
+    <img data-p="salle" data-sizes="94vw" alt="La salle de Fika : parquet en chevrons, boiseries vertes, grandes fenêtres sur la place Viarme" loading="lazy">
+    <div class="salon__cap">
+      <h2 id="salon-t" class="chars" data-chars>Le salon de thé</h2>
+      <p>Grandes fenêtres sur la place, parquet en chevrons, boiseries vert sapin et suspensions en rotin.</p>
+    </div>
+  </div>
+  <div class="wrap salon__row">
+    <figure class="f1 rise"><img data-p="enseigne" data-sizes="(max-width:900px) 46vw, 30vw" alt="L’enseigne de Fika : « Le meilleur pour la faim »" loading="lazy"></figure>
+    <div class="salon__txt rise" style="--d:1">
+      <p class="kick">28 place Viarme</p>
+      <h3>Comme à la maison, en plus gourmand.</h3>
+      <p>Un coin canapé sous les plantes suspendues, des tables près des fenêtres et la vitrine juste à côté. On vient seul avec un livre, à deux pour le goûter ou entre collègues le midi.</p>
+      <ul>
+        <li>Sans réservation, on s’installe</li>
+        <li>Sur place ou à emporter</li>
+        <li>Plusieurs pâtisseries sans gluten selon la saison</li>
+      </ul>
+    </div>
+    <figure class="f3 rise" style="--d:2"><img data-p="salon-plantes" data-sizes="(max-width:900px) 46vw, 30vw" alt="Le coin canapé de Fika, sous les étagères de plantes" loading="lazy"></figure>
+  </div>
+</section>
+
+<!-- ============ SUR COMMANDE ============ -->
+<section class="cmd" id="commandes" aria-labelledby="cmd-t">
+  <div class="wrap cmd__grid">
+    <div>
+      <p class="kick rise">Sur commande</p>
+      <h2 id="cmd-t" class="chars" data-chars style="margin-top:20px">Number cake &amp; <em>letter cake.</em></h2>
+      <p class="cmd__lead rise">Pour toutes vos occasions, l’atelier imagine des créations sur mesure, à votre âge ou à vos initiales. Les entremets de la vitrine existent aussi en grand format.</p>
+      <div class="occ rise"><span>Anniversaire</span><span>Mariage</span><span>Naissance</span><span>PACS</span><span>Fêtes de fin d’année</span></div>
+      <div class="parts rise" aria-label="Formats disponibles">
+        <div><b>1</b><span>individuel</span></div><div><b>4</b><span>parts</span></div><div><b>6</b><span>parts</span></div><div><b>8</b><span>parts</span></div>
+      </div>
+      <div class="hero__cta rise">
+        <a class="btn btn--d" href="tel:+33228446475">Appeler · 02 28 44 64 75</a>
+        <a class="btn btn--o" href="https://www.instagram.com/fika.nantes/" target="_blank" rel="noopener">Écrire sur Instagram</a>
+      </div>
+    </div>
+    <div class="maker rise" style="--d:1">
+      <div class="maker__bar">
+        <label for="cakeIn">Essayez le vôtre :</label>
+        <div class="maker__in">
+          <input id="cakeIn" maxlength="2" value="30" autocomplete="off" spellcheck="false" aria-describedby="cakeHint">
+          <button class="maker__dice" id="cakeDice" type="button" aria-label="Autre exemple"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="4" width="16" height="16" rx="4"/><circle cx="9" cy="9" r="1.2" fill="currentColor"/><circle cx="15" cy="15" r="1.2" fill="currentColor"/><circle cx="15" cy="9" r="1.2" fill="currentColor"/><circle cx="9" cy="15" r="1.2" fill="currentColor"/></svg></button>
+        </div>
+      </div>
+      <div class="maker__stage"><svg id="cakeSvg" viewBox="0 0 800 500" role="img" aria-label="Aperçu d’un number cake"></svg></div>
+      <p class="maker__hint" id="cakeHint"><span>Un chiffre, deux chiffres ou vos initiales.</span><span>Aperçu pour le plaisir : le vrai se décide avec l’atelier.</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AVIS ============ -->
+<section class="avis" aria-labelledby="avis-t">
+  <div class="wrap avis__grid">
+    <div>
+      <p class="kick rise">Ils ont pris le temps d’une fika</p>
+      <p class="score rise" id="avis-t" style="margin-top:22px">4,9 <small>/5</small></p>
+      <p class="avis__meta rise"><span class="st" aria-hidden="true">★★★★★</span>198 avis sur Google</p>
+    </div>
+    <div class="quotes">
+      <figure class="quote rise"><div><p>Les pâtisseries sont fines (pas trop sucré) et délicieuses. Les cafés sont généreux.</p><span>NLP · avis Google</span></div></figure>
+      <figure class="quote rise" style="--d:1"><div><p>Super lieu ! Autant pour leurs pâtisseries que pour y manger le midi ! Tout y est bien pensé.</p><span>Alexis Valein · avis Google</span></div></figure>
+      <figure class="quote rise" style="--d:2"><div><p>Cadre chaleureux bien décoré, le déjeuner était vraiment très bon, réalisé avec des produits frais et fait maison.</p><span>Tazette Tazmanie · Local Guide</span></div></figure>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ INFOS / PIED DE PAGE ============ -->
+<footer class="foot" id="infos">
+  <div class="wrap">
+    <div class="sign rise" id="sign">
+      <svg viewBox="80 395 1005 595" role="img" aria-label="fika">
+        <mask id="mk-sign" maskUnits="userSpaceOnUse" x="0" y="300" width="1200" height="800"><use href="#pen" class="pen2" pathLength="1" fill="none" stroke="#fff" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/></mask>
+        <use href="#scr" fill="currentColor" mask="url(#mk-sign)"/>
+      </svg>
+      <p>LE MEILLEUR POUR LA FAIM</p>
+    </div>
+    <div class="foot__grid">
+      <div class="rise">
+        <h3>Nous trouver</h3>
+        <p class="foot__addr">28 place Viarme,<br><em>Nantes.</em></p>
+        <span class="status js-status"><i></i><span>Horaires</span></span>
+      </div>
+      <div class="rise" style="--d:1">
+        <h3>Horaires</h3>
+        <ul class="hours" id="hours">
+          <li data-d="3"><span>Mercredi</span><span>8h30 – 18h30</span></li>
+          <li data-d="4"><span>Jeudi</span><span>8h30 – 18h30</span></li>
+          <li data-d="5"><span>Vendredi</span><span>8h30 – 18h30</span></li>
+          <li data-d="6"><span>Samedi</span><span>8h30 – 18h30</span></li>
+          <li data-d="0 1 2" class="off"><span>Dimanche → mardi</span><span>Fermé</span></li>
+        </ul>
+      </div>
+      <div class="links rise" style="--d:2">
+        <h3>Contact</h3>
+        <a href="tel:+33228446475"><span>02 28 44 64 75<small>commandes et renseignements</small></span><span aria-hidden="true">↗</span></a>
+        <a href="https://www.instagram.com/fika.nantes/" target="_blank" rel="noopener"><span>Instagram<small>@fika.nantes · la vitrine du jour</small></span><span aria-hidden="true">↗</span></a>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=Fika+28+Place+Viarme+Nantes" target="_blank" rel="noopener"><span>Itinéraire<small>Google Maps</small></span><span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <div class="foot__bottom">
+      <span>© 2026 Fika — Pâtisserie · Salon de thé · Déjeuner</span>
+      <span><a href="/mentions-legales">Mentions légales</a> · Site : Vokum Agency</span>
+    </div>
+  </div>
+</footer>
+<!--JS-->
+</body>
+</html>

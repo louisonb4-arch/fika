@@ -1,0 +1,137 @@
+{
+ "choconoisette": {
+  "w": 560,
+  "h": 727,
+  "sizes": [
+   560,
+   1100
+  ],
+  "crop_top": 170
+ },
+ "chou-fraise-rhubarbe": {
+  "w": 551,
+  "h": 633,
+  "sizes": [
+   360,
+   720
+  ],
+  "crop_top": 296
+ },
+ "chou-poire": {
+  "w": 448,
+  "h": 605,
+  "sizes": [
+   360,
+   720
+  ],
+  "crop_top": 176
+ },
+ "cerise-noire": {
+  "w": 458,
+  "h": 582,
+  "sizes": [
+   360,
+   720
+  ],
+  "crop_top": 292
+ },
+ "tarte-fraise-basilic": {
+  "w": 606,
+  "h": 509,
+  "sizes": [
+   360,
+   720
+  ],
+  "crop_top": 289
+ },
+ "zeste-breton": {
+  "w": 510,
+  "h": 452,
+  "sizes": [
+   360,
+   720
+  ],
+  "crop_top": 414
+ },
+ "tarte-poire": {
+  "w": 663,
+  "h": 578,
+  "sizes": [
+   360,
+   720
+  ],
+  "crop_top": 218
+ },
+ "tarte-myrtille-marron": {
+  "w": 522,
+  "h": 481,
+  "sizes": [
+   360,
+   720
+  ],
+  "crop_top": 340
+ },
+ "douceur-peche": {
+  "w": 411,
+  "h": 463,
+  "sizes": [
+   360,
+   720
+  ],
+  "crop_top": 290
+ },
+ "baba-ananas": {
+  "w": 395,
+  "h": 423,
+  "sizes": [
+   360,
+   720
+  ],
+  "crop_top": 410
+ },
+ "flan-cerise": {
+  "w": 617,
+  "h": 527,
+  "sizes": [
+   360,
+   720
+  ],
+  "crop_top": 306
+ },
+ "flan-pommes": {
+  "w": 519,
+  "h": 466,
+  "sizes": [
+   360,
+   720
+  ],
+  "crop_top": 291
+ },
+ "tarte-prunes": {
+  "w": 442,
+  "h": 348,
+  "sizes": [
+   360,
+   720
+  ],
+  "crop_top": 443
+ },
+ "couronne-exotique": {
+  "w": 919,
+  "h": 829,
+  "sizes": [
+   560,
+   1100
+  ],
+  "crop_top": 121
+ },
+ "flan-abricot": {
+  "w": 525,
+  "h": 533,
+  "sizes": [
+   360,
+   720
+  ],
+  "crop_top": 289
+ }
+}
